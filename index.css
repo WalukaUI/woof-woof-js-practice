@@ -7,11 +7,15 @@
 }
 
 #good-dog-filter {
-  margin-top: 1vh;
-  width: 35vw;
-  font-size: 1em;
-  height: 5vh;
-  border-radius: 3em;
+  height: 50px;
+  width: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  border: 1px solid rgb(149, 149, 236);
+  background-color: rgb(237, 246, 250);
+  cursor: pointer;
 }
 
 #dog-bar {
@@ -22,7 +26,7 @@
   align-items: center;
 }
 
-#dog-bar span {
+#dog-bar button {
   height: 80%;
   width: 8vw;
   display: flex;
@@ -30,6 +34,8 @@
   align-items: center;
   border-radius: 2em;
   border: 1px solid blue;
+  background-color: skyblue;
+  cursor: pointer;
 }
 
 #dog-summary-container {
